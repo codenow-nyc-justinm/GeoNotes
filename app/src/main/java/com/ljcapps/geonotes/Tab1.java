@@ -37,7 +37,7 @@ public class Tab1 extends Fragment {
                 "List View Array Adapter",
                 "Android Example List View"
         };
-        adapter = new ArrayAdapter<String>(getActivity().getApplicationContext(), android.R.layout.simple_list_item_1, android.R.id.text1,  values);
+        adapter = new ArrayAdapter<String>(getActivity().getApplicationContext(), android.R.layout.simple_list_item_1, values);
         listView.setAdapter(adapter);
     }
 
